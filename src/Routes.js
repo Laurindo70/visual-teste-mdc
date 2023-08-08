@@ -15,7 +15,7 @@ function RoutesApp() {
    return (
       <Router>
          <Routes>
-            <Route path='/Home' element={<App />}>
+            <Route path='/' element={<App />}>
                <Route path='' element={<Home />} />
                <Route path='exercise-1' element={<Exercise1 />} />
                <Route path='exercise-2' element={<Exercise2 />} />
